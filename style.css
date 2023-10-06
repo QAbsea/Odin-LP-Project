@@ -21,7 +21,7 @@ body {
 
 .logo {
     color: white;
-    
+    font-size: 14px;
 }
 
 .links {
@@ -98,7 +98,6 @@ ul {
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
     gap: 25px;
 }
 
@@ -120,3 +119,73 @@ ul {
     border: 4px solid rgb(66, 121, 139);
     border-radius: 5px;
 }
+
+/* quote*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: rgb(226, 226, 226);
+    
+    gap: 15px;
+}
+
+.quote p {
+    max-width: 500px;
+}
+
+.quote-text {
+    font-size: 28px;
+    text-align: center;
+}
+
+ .quote-author {
+     width: 500px;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+/* sign-up*/
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.sign-card {
+    display: flex;
+    padding: 30px ;
+    width: 610px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: white;
+    justify-content: space-between;
+    
+}
+
+.sign-card button {
+    margin: 10px;
+    padding: 4px 20px;
+    background-color:#3882f6 ; 
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white ;
+}
+
+/*footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1f2937;
+    color: white;
+}
+
